@@ -84,7 +84,7 @@ private fun OnboardingScreen(onContinueClicked: () -> Unit) {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Welcome to the Basics Codelab!!")
+            Text("Welcome to the Basics Codelab!")
             Button(
                 modifier = Modifier.padding(vertical = 24.dp),
                 onClick = onContinueClicked
